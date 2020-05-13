@@ -26,7 +26,7 @@ Please start by installing the serverless framework using the command:
 
 > npm install -g serverless
 
-You can verify that serverless 
+You can verify that serverless is installed
 
 > serverless -version
 
@@ -39,7 +39,7 @@ Components: 2.30.10
 dean:~ dasig$ 
 
 ```
-> Note: please ensure to have installed latest node.js and aws cli with aws api id and key credentials.
+> Note: please ensure to have installed latest node.js and recommend installing aws cli v2 with aws api id and key credentials.
 
 THe next step will be to create a serverless project or service with a runtime and directory. The template allows you to chose the runtime  used by your function and path is the path of the project directory. you can point it to an existing dir or it will create on for you.
 
@@ -60,7 +60,7 @@ Serverless: Successfully generated boilerplate for template: "aws-nodejs"
 
 ```
 
-serverless.yml and handler.js files will be automatically generated in the service directory. the serverless.yml file contains the config and the handler.js the application source code to be packaged as a lambda fucntion.
+serverless.yml and handler.js files will be automatically generated in the service directory. the serverless.yml file contains the config and the handler.js the application source code to be packaged as a lambda function.
 
 ```
 
