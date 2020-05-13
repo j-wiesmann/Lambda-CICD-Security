@@ -78,7 +78,7 @@ Please change dir to the Serverless project directory where your serverless.yml 
 > npm install -D https://artifactory.app.protego.io/cloudguard-serverless-plugin.tgz
 
 
-Get the Dome9 CloudGuard workload Token and create a protego-config.json file as follow. Place this file in the same dir as your serverless.yml file in the serverless project dir.
+Get the Dome9 API ID and Key and create a protego-config.json file as follow. Place this file in the same dir as your serverless.yml file in the serverless project dir.
 
 ```
 {
